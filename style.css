@@ -2,11 +2,14 @@
     background-image: url(/images/bg_bigGlobe.jpg);
     background-repeat: no-repeat;
     height: 358px;
+    /*图像高度为 358 px*/
 }
 
 .bgGlobe {
     background-image: url(/images/bg_Globe.jpg);
     background-repeat: no-repeat;
+    height: 104px;
+    /*图像高度为 104 px*/
 }
 
 .bgSilverBar {
@@ -16,4 +19,16 @@
 
 .mono {
     font-family: monospace;
+}
+
+.noBorder {
+    width: 100%;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.bgBlue {
+    background-color: #6487dc;
 }
