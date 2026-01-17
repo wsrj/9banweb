@@ -1,0 +1,19 @@
+.bgBigGlobe {
+    background-image: url(/images/bg_bigGlobe.jpg);
+    background-repeat: no-repeat;
+    height: 358px;
+}
+
+.bgGlobe {
+    background-image: url(/images/bg_Globe.jpg);
+    background-repeat: no-repeat;
+}
+
+.bgSilverBar {
+    background-image: url(/images/silverBar.gif);
+    background-repeat: repeat-x;
+}
+
+.mono {
+    font-family: monospace;
+}
