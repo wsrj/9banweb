@@ -23,7 +23,7 @@
 
 .noBorder {
     width: 100%;
-    padding: 0;
+    padding: none;
     border: 0;
     margin: 0;
     height: 100%;
