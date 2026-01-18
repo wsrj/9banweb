@@ -38,7 +38,7 @@ p, footer {
 
 /* 设置等宽字体 */
 .mono {
-	font-family: 'Lucida Console', 'Consolas', 'Droid Sans Mono', 'Noto Sans Mono CJK SC', 宋体, 新宋体, 'Courier New', Courier, monospace;
+	font-family: 'Lucida Console', 'Consolas', 'Droid Sans Mono', 'Noto Sans Mono CJK SC', 宋体, 新宋体, monospace;
 }
 
 /* 给这堆东西设置无边框，宽度 100% */
