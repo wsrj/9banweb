@@ -1,47 +1,47 @@
 /* 背景为“大地球”，不重复 */
 .bgBigGlobe {
-    background-image: url(/images/bg_bigGlobe.jpg);
-    background-repeat: no-repeat;
-    height: 358px;
-    /*图像高度为 358 px*/
+	background-image: url(/images/bg_bigGlobe.jpg);
+	background-repeat: no-repeat;
+	height: 358px;
+	/*图像高度为 358 px*/
 }
 
 /* 背景为“地球”，不重复 */
 .bgGlobe {
-    background-image: url(/images/bg_Globe.jpg);
-    background-repeat: no-repeat;
-    height: 104px;
-    /* 图像高度为 104 px */
+	background-image: url(/images/bg_Globe.jpg);
+	background-repeat: no-repeat;
+	height: 104px;
+	/* 图像高度为 104 px */
 }
 
 /* 背景为 bg_silverBar（银色栏，较窄），横向重复 */
 .bgSilverBar {
-    background-image: url(/images/bg_silverBar.gif);
-    background-repeat: repeat-x;
+	background-image: url(/images/bg_silverBar.gif);
+	background-repeat: repeat-x;
 }
 
 /* 背景为 bg_silverHeader（银色表头，较宽），横向重复 */
 .bgSilverHeader {
-    background-image: url(/images/bg_silverHeader.gif);
-    background-repeat: repeat-x;
-    height: 38px;
+	background-image: url(/images/bg_silverHeader.gif);
+	background-repeat: repeat-x;
+	height: 38px;
 }
 
 /* 设置等宽字体 */
 .mono {
-    font-family: monospace;
+	font-family: monospace;
 }
 
 /* 给这堆东西设置无边框，宽度 100% */
 .noBorder, html, body, tr.bgBigGlobe, tr.bgGlobe, td.bgBigGlobe, td.bgGlobe, table#layout {
-    width: 100%;
-    padding: 0px;
-    border: 0px;
-    margin: 0px;
-    /* height: 100%; */
+	width: 100%;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	/* height: 100%; */
 }
 
 /* 蓝色背景（同地球图片的背景） */
 .bgBlue {
-    background-color: #6487dc;
+	background-color: #6487dc;
 }
