@@ -13,7 +13,12 @@
 }
 
 .bgSilverBar {
-    background-image: url(/images/silverBar.gif);
+    background-image: url(/images/bg_silverBar.gif);
+    background-repeat: repeat-x;
+}
+
+.bgSilverHeader {
+    background-image: url(/images/bg_silverHeader.gif);
     background-repeat: repeat-x;
 }
 
