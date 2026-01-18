@@ -1,5 +1,10 @@
-* {
+*, p {
 	font-family: 'Segoe UI', Tahoma, 'Droid Sans Fallback', Verdana, Geneva, 'Noto Sans CJK SC', sans-serif;
+}
+
+p, footer {
+	font-size: 9pt;
+	color: #000000;
 }
 
 /* 背景为“大地球”，不重复 */
@@ -48,4 +53,45 @@
 /* 蓝色背景（同地球图片的背景颜色） */
 .bgBlue {
 	background-color: #6487dc;
+}
+
+/* 黑色链接，无下划线 */
+a.black:link, a.black:visited, a.black:active {
+	color: #000000;
+	text-decoration: none;
+}
+
+/* 黑色链接，鼠标悬停时有下划线 */
+a.black:hover {
+	text-decoration: underline;
+}
+
+/* ==把这堆东西改成 Windows 配色== */
+a:link, a:visited, a:active {
+	color: #0066cc;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #3399ff;
+	text-decoration: underline;
+
+}
+
+.disabled {
+	color: #323232;
+}
+
+h1.blue {
+	font-size: 12pt;
+	color: #003399;
+}
+/* =============================== */
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 24px;
 }
