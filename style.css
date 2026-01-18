@@ -1,3 +1,7 @@
+* {
+	font-family: 'Segoe UI', Tahoma,'Droid Sans Fallback', Verdana, Geneva, sans-serif;
+}
+
 /* 背景为“大地球”，不重复 */
 .bgBigGlobe {
 	background-image: url(/images/bg_bigGlobe.jpg);
