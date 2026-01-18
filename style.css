@@ -86,6 +86,11 @@ h1.blue {
 	font-size: 12pt;
 	color: #003399;
 }
+
+span.groupHeader {
+	font-size: 11pt;
+	color: #003399 !important;
+}
 /* =============================== */
 
 h1 {
