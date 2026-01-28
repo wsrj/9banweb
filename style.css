@@ -2,7 +2,7 @@
 	font-family: 'Segoe UI', Tahoma, 'Droid Sans Fallback', Verdana, Geneva, 'Noto Sans CJK SC', sans-serif;
 }
 
-p, footer, li, figcaption {
+p, footer, li, figcaption, tr td {
 	font-size: 10pt;
 	color: #000000;
 }
