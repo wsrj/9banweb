@@ -1,3 +1,55 @@
+/* ==引入句读字体== */
+@font-face {
+	/* 粗体 */
+	font-family: judou-b;
+	src: url(/fonts/judou/JudouSansUiHans-Bold.ttf);
+}
+
+@font-face {
+	/* 粗斜体 */
+	font-family: judou-bi;
+	src: url(/fonts/judou/JudouSansUiHans-BoldItalic.ttf);
+}
+
+@font-face {
+	/* 斜体 */
+	font-family: judou-i;
+	src: url(/fonts/judou/JudouSansUiHans-Italic.ttf);
+}
+
+@font-face {
+	/* 常规 */
+	font-family: judou-r;
+	src: url(/fonts/judou/JudouSansUiHans-Regular.ttf);
+}
+/* ================ */
+
+/* ==引入更纱字体== */
+@font-face {
+	/* 等宽，粗体 */
+	font-family: sarasa-fb;
+	src: url(/fonts/sarasa/SarasaFixedSC-Bold.ttf);
+}
+
+@font-face {
+	/* 等宽，粗斜体 */
+	font-family: sarasa-fbi;
+	src: url(/fonts/sarasa/SarasaFixedSC-BoldItalic.ttf);
+}
+
+@font-face {
+	/* 等宽，斜体 */
+	font-family: sarasa-fi;
+	src: url(/fonts/sarasa/SarasaFixedSC-Italic.ttf);
+}
+
+@font-face {
+	/* 等宽，常规 */
+	font-family: sarasa-fr;
+	src: url(/fonts/sarasa/SarasaFixedSC-Regular.ttf);
+}
+/* ================ */
+
 *, p {
 	font-family: 'Segoe UI', Tahoma, 'Droid Sans Fallback', Verdana, Geneva, 'Noto Sans CJK SC', sans-serif;
 }
@@ -6,6 +58,7 @@ p, footer, li, figcaption, tr td, tr th {
 	font-size: 10pt;
 	color: #000000;
 }
+
 
 /* 背景为“大地球”，不重复 */
 .bgBigGlobe {
