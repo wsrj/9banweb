@@ -48,11 +48,35 @@
 	font-family: sarasa-fr;
 	src: url(/fonts/sarasa/SarasaFixedSC-Regular.ttf);
 }
+
+@font-face {
+	/* 常规 */
+	font-family: sarasa-r;
+	src: url(/fonts/sarasa/SarasaUiSC-Regular.ttf);
+}
+
+@font-face {
+	/* 斜体 */
+	font-family: sarasa-i;
+	src: url(/fonts/sarasa/SarasaUiSC-Italic.ttf);
+}
+
+@font-face {
+	/* 粗斜体 */
+	font-family: sarasa-bi;
+	src: url(/fonts/sarasa/SarasaUiSC-BoldItalic.ttf);
+}
+
+@font-face {
+	/* 粗体 */
+	font-family: sarasa-b;
+	src: url(/fonts/sarasa/SarasaUiSC-Bold.ttf);
+}
 /* ================ */
 
 *, p {
 	/* font-family: 'Segoe UI', Tahoma, 'Droid Sans Fallback', Verdana, Geneva, 'Noto Sans CJK SC', sans-serif; */
-	font-family: judou-r, sans-serif;
+	font-family: sarasa-r;
 }
 
 p, footer, li, figcaption, tr td, tr th {
