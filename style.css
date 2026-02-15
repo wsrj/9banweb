@@ -211,11 +211,11 @@ h2 {
 }
 
 /* 窗格 */
-table.pane {
-	background-image: url(/images/bg_bluePanel.bmp);
+.pane {
+	background-image: url(/images/bg_silverPanel.bmp);
 	background-repeat: repeat-x;
 	opacity: 0.9;
-	/* border-radius: 5px; */
+	border-radius: 5px;
 	background-size: 100%;
 	width: 100%;
 }
