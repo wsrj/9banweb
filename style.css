@@ -212,8 +212,10 @@ h2 {
 
 /* 窗格 */
 table.pane {
-	background-color: #f5f5f5;
-	border: 1px solid #000000;
+	background-image: url(/images/bg_bluePanel.png);
+	background-size: cover;
+	/* background-color: #f5f5f5; */
+	/* border: 1px solid #000000; */
 	width: 100%;
 }
 
