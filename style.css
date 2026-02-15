@@ -1,3 +1,8 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
 /* ==引入句读字体== */
 @font-face {
 	/* 粗体 */
@@ -100,7 +105,7 @@
 
 *, p {
 	/* font-family: 'Segoe UI', Tahoma, 'Droid Sans Fallback', Verdana, Geneva, 'Noto Sans CJK SC', sans-serif; */
-	font-family: sarasa;
+	font-family: judou;
 }
 
 p, footer, li, figcaption, tr td, tr th {
@@ -109,20 +114,10 @@ p, footer, li, figcaption, tr td, tr th {
 }
 
 
-/* 背景为“大地球”，不重复 */
-.bgBigGlobe {
-	background-image: url(/images/bg_bigGlobe.jpg);
-	background-repeat: no-repeat;
-	height: 358px;
-	/*图像高度为 358 px*/
-}
-
-/* 背景为“地球”，不重复 */
-.bgGlobe {
-	background-image: url(/images/bg_Globe.jpg);
-	background-repeat: no-repeat;
-	height: 104px;
-	/* 图像高度为 104 px */
+.bgBlueHeader {
+	background-image: url(/images/bg_pageHeader.bmp);
+	scale: 100%;
+	background-size: cover;
 }
 
 /* 背景为 bg_silverBar（银色栏，较窄），横向重复 */
@@ -131,11 +126,10 @@ p, footer, li, figcaption, tr td, tr th {
 	background-repeat: repeat-x;
 }
 
-/* 背景为 bg_silverHeader（银色表头，较宽），横向重复 */
-.bgSilverHeader {
-	background-image: url(/images/bg_silverHeader.gif);
-	background-repeat: repeat-x;
-	height: 38px;
+.bgBlueBar {
+	background-image: url(/images/bg_blueBar.bmp);
+	background-repeat: repeat-y;
+	background-size: cover;
 }
 
 /* 设置等宽字体 */
@@ -153,9 +147,15 @@ p, footer, li, figcaption, tr td, tr th {
 	/* height: 100%; */
 }
 
-/* 蓝色背景（同地球图片的背景颜色） */
+/* 蓝色背景（同地球图片的背景颜色）
 .bgBlue {
 	background-color: #6487dc;
+} */
+
+/* 白色链接，无下划线 */
+a.white:link, a.white:visited, a.white:active {
+	color: #ffffff;
+	text-decoration: none;
 }
 
 /* 黑色链接，无下划线 */
@@ -164,8 +164,15 @@ a.black:link, a.black:visited, a.black:active {
 	text-decoration: none;
 }
 
+/* 白色链接，鼠标悬停时有下划线 */
+a.white:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
 /* 黑色链接，鼠标悬停时有下划线 */
 a.black:hover {
+	color: #000000;
 	text-decoration: underline;
 }
 
@@ -208,4 +215,10 @@ table.pane {
 	background-color: #f5f5f5;
 	border: 1px solid #000000;
 	width: 100%;
+}
+
+body {
+	background-image: url(/images/bg_aurora.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
