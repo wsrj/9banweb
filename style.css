@@ -103,9 +103,9 @@
 }
 /* ================ */
 
-*, p {
+*, p, html, body, table {
 	/* font-family: 'Segoe UI', Tahoma, 'Droid Sans Fallback', Verdana, Geneva, 'Noto Sans CJK SC', sans-serif; */
-	font-family: judou;
+	font-family: judou, sans-serif;
 }
 
 p, footer, li, figcaption, tr td, tr th {
