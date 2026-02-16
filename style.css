@@ -133,7 +133,7 @@ p, footer, li, figcaption, tr td, tr th {
 }
 
 /* 设置等宽字体 */
-.mono, pre {
+.mono, pre, code {
 	/* font-family: 'Lucida Console', 'Consolas', 'Droid Sans Mono', 'Noto Sans Mono CJK SC', 宋体, 新宋体, monospace; */
 	font-family: sarasa-f, monospace;
 }
