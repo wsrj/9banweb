@@ -1,5 +1,111 @@
-*, p {
-	font-family: 'Segoe UI', Tahoma, 'Droid Sans Fallback', Verdana, Geneva, 'Noto Sans CJK SC', sans-serif;
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+/* ==引入句读字体== */
+@font-face {
+	/* 粗体 */
+	font-family: judou;
+	src: url(/fonts/judou/JudouSansUiHans-Bold.ttf);
+	font-style: normal;
+	font-weight: bold;
+}
+
+@font-face {
+	/* 粗斜体 */
+	font-family: judou;
+	src: url(/fonts/judou/JudouSansUiHans-BoldItalic.ttf);
+	font-style: italic;
+	font-weight: bold;
+}
+
+@font-face {
+	/* 斜体 */
+	font-family: judou;
+	src: url(/fonts/judou/JudouSansUiHans-Italic.ttf);
+	font-style: italic;
+	font-weight: normal;
+}
+
+@font-face {
+	/* 常规 */
+	font-family: judou;
+	src: url(/fonts/judou/JudouSansUiHans-Regular.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+/* ================ */
+
+/* ==引入更纱字体== */
+@font-face {
+	/* 等宽，粗体 */
+	font-family: sarasa-f;
+	src: url(/fonts/sarasa/SarasaFixedSC-Bold.ttf);
+	font-style: normal;
+	font-weight: bold;
+}
+
+@font-face {
+	/* 等宽，粗斜体 */
+	font-family: sarasa-f;
+	src: url(/fonts/sarasa/SarasaFixedSC-BoldItalic.ttf);
+	font-style: italic;
+	font-weight: bold;
+}
+
+@font-face {
+	/* 等宽，斜体 */
+	font-family: sarasa-f;
+	src: url(/fonts/sarasa/SarasaFixedSC-Italic.ttf);
+	font-style: italic;
+	font-weight: normal;
+}
+
+@font-face {
+	/* 等宽，常规 */
+	font-family: sarasa-f;
+	src: url(/fonts/sarasa/SarasaFixedSC-Regular.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	/* 常规 */
+	font-family: sarasa;
+	src: url(/fonts/sarasa/SarasaUiSC-Regular.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	/* 斜体 */
+	font-family: sarasa;
+	src: url(/fonts/sarasa/SarasaUiSC-Italic.ttf);
+	font-style: italic;
+	font-weight: normal;
+}
+
+@font-face {
+	/* 粗斜体 */
+	font-family: sarasa;
+	src: url(/fonts/sarasa/SarasaUiSC-BoldItalic.ttf);
+	font-style: italic;
+	font-weight: bold;
+}
+
+@font-face {
+	/* 粗体 */
+	font-family: sarasa;
+	src: url(/fonts/sarasa/SarasaUiSC-Bold.ttf);
+	font-style: normal;
+	font-weight: bold;
+}
+/* ================ */
+
+*, p, html, body, table {
+	/* font-family: 'Segoe UI', Tahoma, 'Droid Sans Fallback', Verdana, Geneva, 'Noto Sans CJK SC', sans-serif; */
+	font-family: judou, sans-serif;
 }
 
 p, footer, li, figcaption, tr td, tr th {
@@ -7,20 +113,11 @@ p, footer, li, figcaption, tr td, tr th {
 	color: #000000;
 }
 
-/* 背景为“大地球”，不重复 */
-.bgBigGlobe {
-	background-image: url(/images/bg_bigGlobe.jpg);
-	background-repeat: no-repeat;
-	height: 358px;
-	/*图像高度为 358 px*/
-}
 
-/* 背景为“地球”，不重复 */
-.bgGlobe {
-	background-image: url(/images/bg_Globe.jpg);
-	background-repeat: no-repeat;
-	height: 104px;
-	/* 图像高度为 104 px */
+.bgBlueHeader {
+	background-image: url(/images/bg_pageHeader.bmp);
+	scale: 100%;
+	background-size: cover;
 }
 
 /* 背景为 bg_silverBar（银色栏，较窄），横向重复 */
@@ -29,16 +126,16 @@ p, footer, li, figcaption, tr td, tr th {
 	background-repeat: repeat-x;
 }
 
-/* 背景为 bg_silverHeader（银色表头，较宽），横向重复 */
-.bgSilverHeader {
-	background-image: url(/images/bg_silverHeader.gif);
-	background-repeat: repeat-x;
-	height: 38px;
+.bgBlueBar {
+	background-image: url(/images/bg_blueBar.bmp);
+	background-repeat: repeat-y;
+	background-size: cover;
 }
 
 /* 设置等宽字体 */
-.mono {
-	font-family: 'Lucida Console', 'Consolas', 'Droid Sans Mono', 'Noto Sans Mono CJK SC', 宋体, 新宋体, monospace;
+.mono, pre, code {
+	/* font-family: 'Lucida Console', 'Consolas', 'Droid Sans Mono', 'Noto Sans Mono CJK SC', 宋体, 新宋体, monospace; */
+	font-family: sarasa-f, monospace;
 }
 
 /* 给这堆东西设置无边框，宽度 100% */
@@ -50,9 +147,15 @@ p, footer, li, figcaption, tr td, tr th {
 	/* height: 100%; */
 }
 
-/* 蓝色背景（同地球图片的背景颜色） */
+/* 蓝色背景（同地球图片的背景颜色）
 .bgBlue {
 	background-color: #6487dc;
+} */
+
+/* 白色链接，无下划线 */
+a.white:link, a.white:visited, a.white:active {
+	color: #ffffff;
+	text-decoration: none;
 }
 
 /* 黑色链接，无下划线 */
@@ -61,8 +164,15 @@ a.black:link, a.black:visited, a.black:active {
 	text-decoration: none;
 }
 
+/* 白色链接，鼠标悬停时有下划线 */
+a.white:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
 /* 黑色链接，鼠标悬停时有下划线 */
 a.black:hover {
+	color: #000000;
 	text-decoration: underline;
 }
 
@@ -98,4 +208,31 @@ h1 {
 
 h2 {
 	font-size: 24px;
+}
+
+/* 窗格 */
+.pane, .pane-noradius {
+	background-image: url(/images/bg_silverPanel.bmp);
+	background-repeat: repeat-x;
+	opacity: 0.9;
+	background-size: 100% 100%;
+	width: 100%;
+}
+
+.pane {
+	border-radius: 5px;	
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-image: url(/images/bg_aurora.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+html {
+	width: 100%;
+	height: 100%;
 }
