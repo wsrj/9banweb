@@ -118,6 +118,7 @@ p, footer, li, figcaption, tr td, tr th {
 	background-image: url(/images/bg_pageHeader.bmp);
 	scale: 100%;
 	background-size: cover;
+	padding: 10px;
 }
 
 /* 背景为 bg_silverBar（银色栏，较窄），横向重复 */
