@@ -1,0 +1,2 @@
+bg_footer.bmp filter=lfs diff=lfs merge=lfs -text
+bg_footerTrans.png filter=lfs diff=lfs merge=lfs -text
