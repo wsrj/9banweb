@@ -11,8 +11,6 @@ jobs:
   steps:
     - name: 签出
       uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
     - name: 生成更新记录文件
       run: |
         echo "<html><body><pre>" > logs.html
