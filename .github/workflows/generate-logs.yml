@@ -17,7 +17,9 @@ jobs:
           fetch-depth: 0
       - name: 生成更新记录文件
         run: |
-          echo "<html><body><pre>" > logs.html
+          echo "<html><body><span style=\"color: #003399; font-size: 12pt\">本站的提交记录</span><br>" > logs.html
+          echo "<p style=\"font-size: 9pt\">注：名为“更新提交记录 [skip ci]”的提交是自动化程序（流水线）生成的。</p>" >> logs.html
+          echo "<pre>" >>logs.html
           git log --oneline --all --graph >> logs.html
           echo "</pre></body></html>" >> logs.html
       - name: 提交并推送
