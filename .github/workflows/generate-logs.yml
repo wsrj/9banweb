@@ -18,7 +18,7 @@ jobs:
       - name: 生成更新记录文件
         run: |
           echo "<html><head><link rel=\"stylesheet\" href=\"/font.css\"></head><body><span style=\"color: #003399; font-size: 12pt\">本站的提交记录</span><br>" > logs.html
-          echo "<p style=\"font-size: 9pt\">注：名为“更新提交记录 [skip ci]”的提交是自动化程序（流水线）生成的。<br>“wsrj”和“该昵称己被占用_”是同一个人；“github-actions[bot]”是流水线生成的。</p>" >> logs.html
+          echo "<p style=\"font-size: 9pt\">注：名为“更新提交记录 [skip ci]”的提交是自动化程序（流水线）生成的。<br>“wsrj”和“该昵称己被占用_”是同一个人；“github-actions[bot]”是流水线生成的。<br>每个 * 对应一个提交，| 代表分支，后面的是提交说明、提交者、提交日期，“Merge…”是将多个分支合并。</p>" >> logs.html
           echo "<pre>" >>logs.html
           git log --oneline --all --graph --pretty=format:"%s (%an %ad)" --date=short >> logs.html
           echo "</pre></body></html>" >> logs.html
