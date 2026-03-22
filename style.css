@@ -213,9 +213,8 @@ h2 {
 
 /* 窗格 */
 .pane, .pane-noradius {
-	background-image: url(/images/bg_silverPanel.bmp);
+	background-image: url(/images/bg_silverPanelTrans.png);
 	background-repeat: repeat-x;
-	opacity: 0.9;
 	background-size: 100% 100%;
 	width: 100%;
 }
