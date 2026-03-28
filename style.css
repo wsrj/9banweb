@@ -113,7 +113,6 @@ p, footer, li, figcaption, tr td, tr th {
 	color: #000000;
 }
 
-
 .bgBlueHeader {
 	background-image: url(/images/bg_pageHeader.bmp);
 	scale: 100%;
@@ -236,4 +235,8 @@ body {
 html {
 	width: 100%;
 	height: 100%;
+}
+
+table#toolBar tr td {
+	width: 25%;
 }
