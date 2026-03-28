@@ -1,6 +1,6 @@
-body, html {
-	padding: 0px;
-	margin: 0px;
+body, html, hr, table {
+	padding: 0;
+	margin: 0;
 }
 
 /* ==引入句读字体== */
