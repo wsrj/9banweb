@@ -103,8 +103,8 @@
         font-family: judou, sans-serif;
 }
 
-p, footer, li, figcaption, tr td, tr th {
-        font-size: 10pt;
+p, footer, li, figcaption, tr td, tr th, code, pre, span {
+        font-size: 13pt;
         color: #000000;
 }
 

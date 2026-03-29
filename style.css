@@ -108,8 +108,8 @@ body, html, td hr, table, tr, td {
 	font-family: judou, sans-serif;
 }
 
-p, footer, li, figcaption, tr td, tr th {
-	font-size: 10pt;
+p, footer, li, figcaption, tr td, tr th, code, pre, span {
+	font-size: 13pt;
 	color: #000000;
 }
 
@@ -193,23 +193,15 @@ a:hover {
 }
 
 span.instruction {
-	font-size: 12pt;
+	font-size: 16pt;
 	color: #003399;
 }
 
 span.groupHeader {
-	font-size: 11pt;
+	font-size: 15pt;
 	color: #003399 !important;
 }
 /* =============================== */
-
-h1 {
-	font-size: 32px;
-}
-
-h2 {
-	font-size: 24px;
-}
 
 /* 窗格 */
 .pane, .pane-noradius {
