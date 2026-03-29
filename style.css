@@ -1,238 +1,238 @@
 body, html, td hr, table, tr, td {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 /* ==引入句读字体== */
 @font-face {
-	/* 粗体 */
-	font-family: judou;
-	src: url(/fonts/judou/JudouSansUiHans-Bold.ttf);
-	font-style: normal;
-	font-weight: bold;
+    /* 粗体 */
+    font-family: judou;
+    src: url(/fonts/judou/JudouSansUiHans-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
 }
 
 @font-face {
-	/* 粗斜体 */
-	font-family: judou;
-	src: url(/fonts/judou/JudouSansUiHans-BoldItalic.ttf);
-	font-style: italic;
-	font-weight: bold;
+    /* 粗斜体 */
+    font-family: judou;
+    src: url(/fonts/judou/JudouSansUiHans-BoldItalic.ttf);
+    font-style: italic;
+    font-weight: bold;
 }
 
 @font-face {
-	/* 斜体 */
-	font-family: judou;
-	src: url(/fonts/judou/JudouSansUiHans-Italic.ttf);
-	font-style: italic;
-	font-weight: normal;
+    /* 斜体 */
+    font-family: judou;
+    src: url(/fonts/judou/JudouSansUiHans-Italic.ttf);
+    font-style: italic;
+    font-weight: normal;
 }
 
 @font-face {
-	/* 常规 */
-	font-family: judou;
-	src: url(/fonts/judou/JudouSansUiHans-Regular.ttf);
-	font-style: normal;
-	font-weight: normal;
+    /* 常规 */
+    font-family: judou;
+    src: url(/fonts/judou/JudouSansUiHans-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
 }
 /* ================ */
 
 /* ==引入更纱字体== */
 @font-face {
-	/* 等宽，粗体 */
-	font-family: sarasa-f;
-	src: url(/fonts/sarasa/SarasaFixedSC-Bold.ttf);
-	font-style: normal;
-	font-weight: bold;
+    /* 等宽，粗体 */
+    font-family: sarasa-f;
+    src: url(/fonts/sarasa/SarasaFixedSC-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
 }
 
 @font-face {
-	/* 等宽，粗斜体 */
-	font-family: sarasa-f;
-	src: url(/fonts/sarasa/SarasaFixedSC-BoldItalic.ttf);
-	font-style: italic;
-	font-weight: bold;
+    /* 等宽，粗斜体 */
+    font-family: sarasa-f;
+    src: url(/fonts/sarasa/SarasaFixedSC-BoldItalic.ttf);
+    font-style: italic;
+    font-weight: bold;
 }
 
 @font-face {
-	/* 等宽，斜体 */
-	font-family: sarasa-f;
-	src: url(/fonts/sarasa/SarasaFixedSC-Italic.ttf);
-	font-style: italic;
-	font-weight: normal;
+    /* 等宽，斜体 */
+    font-family: sarasa-f;
+    src: url(/fonts/sarasa/SarasaFixedSC-Italic.ttf);
+    font-style: italic;
+    font-weight: normal;
 }
 
 @font-face {
-	/* 等宽，常规 */
-	font-family: sarasa-f;
-	src: url(/fonts/sarasa/SarasaFixedSC-Regular.ttf);
-	font-style: normal;
-	font-weight: normal;
+    /* 等宽，常规 */
+    font-family: sarasa-f;
+    src: url(/fonts/sarasa/SarasaFixedSC-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
 }
 
 @font-face {
-	/* 常规 */
-	font-family: sarasa;
-	src: url(/fonts/sarasa/SarasaUiSC-Regular.ttf);
-	font-style: normal;
-	font-weight: normal;
+    /* 常规 */
+    font-family: sarasa;
+    src: url(/fonts/sarasa/SarasaUiSC-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
 }
 
 @font-face {
-	/* 斜体 */
-	font-family: sarasa;
-	src: url(/fonts/sarasa/SarasaUiSC-Italic.ttf);
-	font-style: italic;
-	font-weight: normal;
+    /* 斜体 */
+    font-family: sarasa;
+    src: url(/fonts/sarasa/SarasaUiSC-Italic.ttf);
+    font-style: italic;
+    font-weight: normal;
 }
 
 @font-face {
-	/* 粗斜体 */
-	font-family: sarasa;
-	src: url(/fonts/sarasa/SarasaUiSC-BoldItalic.ttf);
-	font-style: italic;
-	font-weight: bold;
+    /* 粗斜体 */
+    font-family: sarasa;
+    src: url(/fonts/sarasa/SarasaUiSC-BoldItalic.ttf);
+    font-style: italic;
+    font-weight: bold;
 }
 
 @font-face {
-	/* 粗体 */
-	font-family: sarasa;
-	src: url(/fonts/sarasa/SarasaUiSC-Bold.ttf);
-	font-style: normal;
-	font-weight: bold;
+    /* 粗体 */
+    font-family: sarasa;
+    src: url(/fonts/sarasa/SarasaUiSC-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
 }
 /* ================ */
 
 *, p, html, body, table {
-	/* font-family: 'Segoe UI', Tahoma, 'Droid Sans Fallback', Verdana, Geneva, 'Noto Sans CJK SC', sans-serif; */
-	font-family: judou, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, 'Droid Sans Fallback', Verdana, Geneva, 'Noto Sans CJK SC', sans-serif; */
+    font-family: judou, sans-serif;
 }
 
 p, footer, li, figcaption, tr td, tr th, code, pre {
-	font-size: 13pt;
-	color: #000000;
+    font-size: 13pt;
+    color: #000000;
 }
 
-span {
-	font-size: 13pt;
+span, * {
+    font-size: 13pt;
 }
 
 .bgBlueHeader {
-	background-image: url(/images/bg_pageHeader.bmp);
-	scale: 100%;
-	background-size: cover;
-	padding: 10px;
-	margin: 0;
+    background-image: url(/images/bg_pageHeader.bmp);
+    scale: 100%;
+    background-size: cover;
+    padding: 10px;
+    margin: 0;
 }
 
 /* 背景为 bg_silverBar（银色栏，较窄），横向重复 */
 .bgSilverBar {
-	background-image: url(/images/bg_silverBar.gif);
-	background-repeat: repeat-x;
+    background-image: url(/images/bg_silverBar.gif);
+    background-repeat: repeat-x;
 }
 
 .bgBlueBar {
-	background-image: url(/images/bg_blueBar.bmp);
-	background-repeat: repeat-y;
-	background-size: cover;
+    background-image: url(/images/bg_blueBar.bmp);
+    background-repeat: repeat-y;
+    background-size: cover;
 }
 
 /* 设置等宽字体 */
 .mono, pre, code {
-	/* font-family: 'Lucida Console', 'Consolas', 'Droid Sans Mono', 'Noto Sans Mono CJK SC', 宋体, 新宋体, monospace; */
-	font-family: sarasa-f, monospace;
+    /* font-family: 'Lucida Console', 'Consolas', 'Droid Sans Mono', 'Noto Sans Mono CJK SC', 宋体, 新宋体, monospace; */
+    font-family: sarasa-f, monospace;
 }
 
 /* 给这堆东西设置无边框，宽度 100% */
 .noBorder, html, body, table#layout {
-	width: 100%;
-	padding: 0px;
-	border: 0px;
-	margin: 0px;
-	/* height: 100%; */
+    width: 100%;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    /* height: 100%; */
 }
 
 /* 蓝色背景（同地球图片的背景颜色）
 .bgBlue {
-	background-color: #6487dc;
+    background-color: #6487dc;
 } */
 
 /* 白色链接，无下划线 */
 a.white:link, a.white:visited, a.white:active {
-	color: #ffffff;
-	text-decoration: none;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 /* 黑色链接，无下划线 */
 a.black:link, a.black:visited, a.black:active {
-	color: #000000;
-	text-decoration: none;
+    color: #000000;
+    text-decoration: none;
 }
 
 /* 白色链接，鼠标悬停时有下划线 */
 a.white:hover {
-	color: #ffffff;
-	text-decoration: underline;
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 /* 黑色链接，鼠标悬停时有下划线 */
 a.black:hover {
-	color: #000000;
-	text-decoration: underline;
+    color: #000000;
+    text-decoration: underline;
 }
 
 /* ==把这堆东西改成 Windows 配色== */
 a:link, a:visited, a:active {
-	color: #0066cc;
-	text-decoration: none;
+    color: #0066cc;
+    text-decoration: none;
 }
 
 a:hover {
-	color: #3399ff;
-	text-decoration: none;
+    color: #3399ff;
+    text-decoration: none;
 }
 
 .disabled {
-	color: #323232;
+    color: #323232;
 }
 
 span.instruction {
-	font-size: 16pt;
-	color: #003399;
+    font-size: 16pt;
+    color: #003399;
 }
 
 span.groupHeader {
-	font-size: 15pt;
-	color: #003399 !important;
+    font-size: 15pt;
+    color: #003399 !important;
 }
 /* =============================== */
 
 /* 窗格 */
 .pane, .pane-noradius {
-	background-image: url(/images/bg_silverPanelTrans.png);
-	background-repeat: repeat-x;
-	background-size: 100% 100%;
-	width: 100%;
+    background-image: url(/images/bg_silverPanelTrans.png);
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+    width: 100%;
 }
 
 .pane {
-	border-radius: 5px;	
+    border-radius: 5px;	
 }
 
 body {
-	width: 100%;
-	height: 100%;
-	background-image: url(/images/bg_aurora.jpg);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(/images/bg_aurora.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
 html {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 table#toolBar tr td {
-	width: 25%;
+    width: 25%;
 }
