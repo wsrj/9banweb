@@ -108,7 +108,7 @@ p, footer, li, figcaption, tr td, tr th, code, pre {
 	color: #000000;
 }
 
-span, * {
+span {
 	font-size: 13pt;
 }
 
