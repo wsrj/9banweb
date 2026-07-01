@@ -1,32 +1,32 @@
-/* ==引入句读字体== */
+/* ==引入 Noto 字体== */
 @font-face {
 	/* 粗体 */
-	font-family: judou;
-	src: url(/fonts/judou/JudouSansUiHans-Bold.ttf);
+	font-family: noto;
+	src: url(/fonts/noto/NotoSans-Bold.ttf);
 	font-style: normal;
 	font-weight: bold;
 }
 
 @font-face {
 	/* 粗斜体 */
-	font-family: judou;
-	src: url(/fonts/judou/JudouSansUiHans-BoldItalic.ttf);
+	font-family: noto;
+	src: url(/fonts/noto/NotoSans-BoldItalic.ttf);
 	font-style: italic;
 	font-weight: bold;
 }
 
 @font-face {
 	/* 斜体 */
-	font-family: judou;
-	src: url(/fonts/judou/JudouSansUiHans-Italic.ttf);
+	font-family: noto;
+	src: url(/fonts/noto/NotoSans-Italic.ttf);
 	font-style: italic;
 	font-weight: normal;
 }
 
 @font-face {
 	/* 常规 */
-	font-family: judou;
-	src: url(/fonts/judou/JudouSansUiHans-Regular.ttf);
+	font-family: noto;
+	src: url(/fonts/noto/NotoSans-Regular.ttf);
 	font-style: normal;
 	font-weight: normal;
 }
@@ -35,7 +35,7 @@
 /* ==引入更纱字体== */
 @font-face {
 	/* 等宽，粗体 */
-	font-family: sarasa-f;
+	font-family: sarasa;
 	src: url(/fonts/sarasa/SarasaFixedSC-Bold.ttf);
 	font-style: normal;
 	font-weight: bold;
@@ -43,7 +43,7 @@
 
 @font-face {
 	/* 等宽，粗斜体 */
-	font-family: sarasa-f;
+	font-family: sarasa;
 	src: url(/fonts/sarasa/SarasaFixedSC-BoldItalic.ttf);
 	font-style: italic;
 	font-weight: bold;
@@ -51,7 +51,7 @@
 
 @font-face {
 	/* 等宽，斜体 */
-	font-family: sarasa-f;
+	font-family: sarasa;
 	src: url(/fonts/sarasa/SarasaFixedSC-Italic.ttf);
 	font-style: italic;
 	font-weight: normal;
@@ -59,7 +59,7 @@
 
 @font-face {
 	/* 等宽，常规 */
-	font-family: sarasa-f;
+	font-family: sarasa;
 	src: url(/fonts/sarasa/SarasaFixedSC-Regular.ttf);
 	font-style: normal;
 	font-weight: normal;
@@ -100,7 +100,7 @@
 
 *, p, html, body, table {
 	/* font-family: 'Segoe UI', Tahoma, 'Droid Sans Fallback', Verdana, Geneva, 'Noto Sans CJK SC', sans-serif; */
-	font-family: judou, sans-serif;
+	font-family: noto, sarasa;
 }
 
 p, footer, li, figcaption, tr td, tr th, code, pre {
@@ -114,7 +114,7 @@ span {
 
 /* 设置等宽字体 */
 .mono, pre, code {
-	font-family: sarasa-f, monospace;
+	font-family: sarasa, monospace;
 }
 
 /* 白色链接，无下划线 */
