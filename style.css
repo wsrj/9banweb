@@ -5,121 +5,121 @@ body, html, td hr, table, tr, td {
 
 /* ==引入 Noto 字体== */
 @font-face {
-	/* 粗体 */
-	font-family: noto;
-	src: url(/fonts/noto/NotoSans-Bold.ttf);
-	font-style: normal;
-	font-weight: bold;
+    /* 粗体 */
+    font-family: noto;
+    src: url(/fonts/noto/NotoSans-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
 }
 
 @font-face {
-	/* 粗斜体 */
-	font-family: noto;
-	src: url(/fonts/noto/NotoSans-BoldItalic.ttf);
-	font-style: italic;
-	font-weight: bold;
+    /* 粗斜体 */
+    font-family: noto;
+    src: url(/fonts/noto/NotoSans-BoldItalic.ttf);
+    font-style: italic;
+    font-weight: bold;
 }
 
 @font-face {
-	/* 斜体 */
-	font-family: noto;
-	src: url(/fonts/noto/NotoSans-Italic.ttf);
-	font-style: italic;
-	font-weight: normal;
+    /* 斜体 */
+    font-family: noto;
+    src: url(/fonts/noto/NotoSans-Italic.ttf);
+    font-style: italic;
+    font-weight: normal;
 }
 
 @font-face {
-	/* 常规 */
-	font-family: noto;
-	src: url(/fonts/noto/NotoSans-Regular.ttf);
-	font-style: normal;
-	font-weight: normal;
+    /* 常规 */
+    font-family: noto;
+    src: url(/fonts/noto/NotoSans-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
 }
 /* ================ */
 
 /* ==引入更纱字体== */
 @font-face {
-	/* 等宽，粗体 */
-	font-family: sarasa;
-	src: url(/fonts/sarasa/SarasaFixedSC-Bold.ttf);
-	font-style: normal;
-	font-weight: bold;
+    /* 等宽，粗体 */
+    font-family: sarasa;
+    src: url(/fonts/sarasa/SarasaFixedSC-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
 }
 
 @font-face {
-	/* 等宽，粗斜体 */
-	font-family: sarasa;
-	src: url(/fonts/sarasa/SarasaFixedSC-BoldItalic.ttf);
-	font-style: italic;
-	font-weight: bold;
+    /* 等宽，粗斜体 */
+    font-family: sarasa;
+    src: url(/fonts/sarasa/SarasaFixedSC-BoldItalic.ttf);
+    font-style: italic;
+    font-weight: bold;
 }
 
 @font-face {
-	/* 等宽，斜体 */
-	font-family: sarasa;
-	src: url(/fonts/sarasa/SarasaFixedSC-Italic.ttf);
-	font-style: italic;
-	font-weight: normal;
+    /* 等宽，斜体 */
+    font-family: sarasa;
+    src: url(/fonts/sarasa/SarasaFixedSC-Italic.ttf);
+    font-style: italic;
+    font-weight: normal;
 }
 
 @font-face {
-	/* 等宽，常规 */
-	font-family: sarasa;
-	src: url(/fonts/sarasa/SarasaFixedSC-Regular.ttf);
-	font-style: normal;
-	font-weight: normal;
+    /* 等宽，常规 */
+    font-family: sarasa;
+    src: url(/fonts/sarasa/SarasaFixedSC-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
 }
 
 @font-face {
-	/* 常规 */
-	font-family: sarasa;
-	src: url(/fonts/sarasa/SarasaUiSC-Regular.ttf);
-	font-style: normal;
-	font-weight: normal;
+    /* 常规 */
+    font-family: sarasa;
+    src: url(/fonts/sarasa/SarasaUiSC-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
 }
 
 @font-face {
-	/* 斜体 */
-	font-family: sarasa;
-	src: url(/fonts/sarasa/SarasaUiSC-Italic.ttf);
-	font-style: italic;
-	font-weight: normal;
+    /* 斜体 */
+    font-family: sarasa;
+    src: url(/fonts/sarasa/SarasaUiSC-Italic.ttf);
+    font-style: italic;
+    font-weight: normal;
 }
 
 @font-face {
-	/* 粗斜体 */
-	font-family: sarasa;
-	src: url(/fonts/sarasa/SarasaUiSC-BoldItalic.ttf);
-	font-style: italic;
-	font-weight: bold;
+    /* 粗斜体 */
+    font-family: sarasa;
+    src: url(/fonts/sarasa/SarasaUiSC-BoldItalic.ttf);
+    font-style: italic;
+    font-weight: bold;
 }
 
 @font-face {
-	/* 粗体 */
-	font-family: sarasa;
-	src: url(/fonts/sarasa/SarasaUiSC-Bold.ttf);
-	font-style: normal;
-	font-weight: bold;
+    /* 粗体 */
+    font-family: sarasa;
+    src: url(/fonts/sarasa/SarasaUiSC-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
 }
 /* ================ */
 
 *, p, html, body, table {
-	/* font-family: 'Segoe UI', Tahoma, 'Droid Sans Fallback', Verdana, Geneva, 'Noto Sans CJK SC', sans-serif; */
-	font-family: noto, sarasa;
+    /* font-family: 'Segoe UI', Tahoma, 'Droid Sans Fallback', Verdana, Geneva, 'Noto Sans CJK SC', sans-serif; */
+    font-family: noto, sarasa;
 }
 
 p, footer, li, figcaption, tr td, tr th, code, pre {
-	font-size: 13pt;
-	color: #000000;
+    font-size: 13pt;
+    color: #000000;
 }
 
 span {
-	font-size: 13pt;
+    font-size: 13pt;
 }
 
 /* 设置等宽字体 */
 .mono, pre, code {
-	font-family: sarasa, monospace;
+    font-family: sarasa, monospace;
 }
 
 p, footer, li, figcaption, tr td, tr th, code, pre {
