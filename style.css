@@ -122,12 +122,6 @@ span {
 	font-family: sarasa, monospace;
 }
 
-
-*, p, html, body, table {
-    /* font-family: 'Segoe UI', Tahoma, 'Droid Sans Fallback', Verdana, Geneva, 'Noto Sans CJK SC', sans-serif; */
-    font-family: judou, sans-serif;
-}
-
 p, footer, li, figcaption, tr td, tr th, code, pre {
     font-size: 13pt;
     color: #000000;
@@ -160,7 +154,7 @@ span {
 /* 设置等宽字体 */
 .mono, pre, code {
     /* font-family: 'Lucida Console', 'Consolas', 'Droid Sans Mono', 'Noto Sans Mono CJK SC', 宋体, 新宋体, monospace; */
-    font-family: sarasa-f, monospace;
+    font-family: sarasa, monospace;
 }
 
 /* 给这堆东西设置无边框，宽度 100% */
