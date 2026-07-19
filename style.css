@@ -132,21 +132,21 @@ span {
 }
 
 .bgBlueHeader {
-    background-image: url(/images/bg_pageHeader.bmp);
+    background-image: url(/images/bg_header_page.bmp);
     scale: 100%;
     background-size: cover;
     padding: 10px;
     margin: 0;
 }
 
-/* 背景为 bg_silverBar（银色栏，较窄），横向重复 */
+/* 背景为 bg_bar_silver（银色栏，较窄），横向重复 */
 .bgSilverBar {
-    background-image: url(/images/bg_silverBar.gif);
+    background-image: url(/images/bg_bar_silver.gif);
     background-repeat: repeat-x;
 }
 
 .bgBlueBar {
-    background-image: url(/images/bg_blueBar.bmp);
+    background-image: url(/images/bg_bar_blue.bmp);
     background-repeat: repeat-y;
     background-size: cover;
 }
@@ -223,7 +223,7 @@ span.groupHeader {
 
 /* 窗格 */
 .pane, .pane-noradius {
-    background-image: url(/images/bg_silverPanelTrans.png);
+    background-image: url(/images/bg_panel_silver_trans.png);
     background-repeat: repeat-x;
     background-size: 100% 100%;
     width: 100%;
